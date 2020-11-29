@@ -111,7 +111,7 @@ body {
 
 /* page 1 begins */
 .page-one {
-    transform: translateY(-30vh);
+    margin-top: -30vh;
     background-image: url("../img/bg-images/page-one-bg.svg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -154,7 +154,6 @@ body {
 
 /* page 2 begins */
 .page-two {
-    transform: translateY(-30vh);
     background-image: url("../img/bg-images/page-two-bg.svg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -203,7 +202,6 @@ body {
 
     /* page 3 begins */
     .page-three {
-        transform: translateY(-30vh);
         background-image: url("../img/bg-images/courses-bg.svg");
         background-size: cover;
         background-repeat: no-repeat;
@@ -248,13 +246,13 @@ body {
 
     /* page 4 begins */
     .page-four {
-        transform: translateY(-30vh);
         background-image: url("../img/bg-images/our-features-bg.svg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
-        height: 215vh;
+        height: 130vh;
     }
+   
     .pf-head-c {
         text-align: center;
         padding-top: 7vh;
@@ -273,15 +271,22 @@ body {
         margin-right: auto;
         text-align: center;
     }
+    .pf-feature-r {
+        height: 40vh;
+        line-height: 100%;
+        overflow: hidden;
+    }
     .pf-feature {
         width: 20vw;
+        max-height: 40vh;
         height: 40vh;
+        line-height: 100%;
         max-width: 20vw;
         display: inline-block;
-        background: #fff8cd88;
+        background: #fff8cdb0;
         border-radius: 20px;
         color: #000;
-        margin: 0 9vw 0 0;
+        margin-right: 9vw;
     }
     .pf-feature-third {
         margin-right: 0;
@@ -289,13 +294,13 @@ body {
     .pf-feature-img-c {
         width: 3vw;
         text-align: left;
-        vertical-align: text-top;
     }
     .pf-feature-img {
         width: 100%;
     }
     .pf-feature-head {
         font-size: 1.6vw;
+        line-height: 1.6vw;
         margin-top: 2vh;
         font-weight: 800;
     }
@@ -313,13 +318,155 @@ body {
     /* page 4 ends */
 
     /* page 5 begins */
+    .page-five {
+        margin-top: -20vh;
+        background-image: url("../img/bg-images/our-features-bg.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 110vh;
+    }
     /* page 5 ends */
 
     /* page 6 begins */
+    .page-six  {
+        background-image: url("../img/bg-images/student-review-bg.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 90vh;
+    }
+    .page-six-c {
+        max-width: 90vw;
+        width: 90vw;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .psi-head-c {
+        padding-top: 10vh;
+        text-align: center;
+    }
+    .psi-head {
+        color: #7579E7;
+        font-size: 4.2vw;
+    }
     /* page 6 ends */
-
+    
     /* page 7 begins */
+    .page-seven {
+        background-image: url("../img/bg-images/meet-the-team-bg.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 90vh;
+    }
+    .page-seven-c {
+        max-width: 90vw;
+        width: 90vw;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .pse-head-c {
+        /* padding: 6\vh 0 2vh 0; */
+        text-align: center;
+    }
+    .pse-head {
+        font-size: 4.2rem;
+        padding-top: 2vh;
+        font-weight: 700;
+        color: #FF9642;
+    }
+    .pse-team-c {
+        max-height: 70vh;
+        max-width: 90vw;
+        height: 70vh;
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .team-gutter {
+        height: 8vh;
+    }
+    .pse-team-r {
+        display: block;
+        margin: 0;
+        height: 28vh;
+        width: 100%;
+    }
+    .pse-team-rone,
+    .pse-team-rtwo {
+        display: inline-block;
+        margin-right: 10vw;
+        width: 16vw;
+        height: 100%;
+    }
+    .pse-team-rone:last-child ,
+    .pse-team-rtwo:last-child {
+        margin-right: 0;
+    }
+    .pse-team-one-img-c {
+        width: 16vw;
+        height: 28vh;
+        background: #C4C4C4;
+        border: none;
+        border-radius: 100%;
+    }
+    .pse-team-one-img {
+        width: 100%;
+        height: 100%;
+        border: none;
+        
+        border-radius: 100%;
+    }
     /* page 7 ends */
 
     /* page 8 begins */
+    .page-eight {
+        background-image: url("../img/bg-images/featured-on-bg.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 90vh;
+    }
+    .page-eight-c {
+        max-width: 90vw;
+        width: 90vw;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .pe-head-c {
+        padding: 6vh 0 2vh 0;
+        text-align: center;
+    }
+    .pe-head {
+        font-size: 4.2rem;
+        font-weight: 700;
+        color: #FF9642;
+    }
+    .pe-news-c {
+        max-height: 70vh;
+        height: 70vh;
+    }
+    .pe-news-one-c {
+        margin: auto 0 auto auto;
+        display: block;
+        width: 18vw;
+        height: 15vh;
+        margin-bottom: 8vh;
+    }
+    .pe-news-one-c:last-child {
+        margin-bottom: 0;
+    }
+    .pe-news-one-img-c {
+        width: 18vw;
+        height: 15vh;
+    }
+    .pe-news-one-img {
+        width: 100%;
+        height: 100%;
+    }
     /* page 8 ends */
